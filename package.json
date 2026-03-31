@@ -1,0 +1,28 @@
+{
+  "name": "fee-switch",
+  "version": "1.0.0",
+  "description": "Minimal Foundry scaffold for the ETEE Protocol fee-splitting settlement task.",
+  "scripts": {
+    "settle": "tsx scripts/settleJob.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MihRazvan/fee-switch.git"
+  },
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/MihRazvan/fee-switch/issues"
+  },
+  "homepage": "https://github.com/MihRazvan/fee-switch#readme",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "viem": "^2.47.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  }
+}
